@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Jumanji</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="Imagens/forest.jpg" alt="">
+            <p>Ao jogar um jogo de tabuleiro com uma amiga, você de repente é transportado para dentro do jogo. Você cai
+                dentro de uma floresta.</p>
+            <button class="btn-proximo" data-proximo="1">Andar</button>
+            <button class="btn-proximo" data-proximo="2B">Gritar por ajuda</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="Imagens/Entrada da caverna.jpg" alt="">
+            <p>Você anda por alguns minutos e se depara com uma caverna</p>
+            <button class="btn-proximo" data-proximo="2A">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="3B">Ignorar e seguir em frente</button>
+        </div>
+        <div class="passo" id="passo-2A">
+            <img src="Imagens/Luz no fim.jpg" alt="">
+            <p>Você entra na caverna e se depara com armadilhas. Você acaba se esquivando de todas, quase morrendo. Ao
+                passar por tudo, você enxerga uma luz.</p>
+            <button class="btn-proximo" data-proximo="3A">Fora da floresta</button>
+        </div>
+        <div class="passo" id="passo-3A">
+            <img src="Imagens/Horizonte.jpg" alt="">
+            <p>Ao estar fora da floresta, você percebe que não há nada além de um campo vazio. Porém, você vê o fim
+                disso no horizonte</p>
+            <button class="btn-proximo" data-proximo="4C">Andar até o fim</button>
+            <button class="btn-proximo" data-proximo="4A">Voltar para floresta</button>
+        </div>
+        <div class="passo" id="passo-4A">
+            <img src="Imagens/Sem saida.jpg" alt="">
+            <p>Você presume que não há saída desse mundo</p>
+            <button class="btn-proximo" data-proximo="5A">Viver na floresta</button>
+            <button class="btn-proximo" data-proximo="5B">Uma única saida</button>
+        </div>
+        <div class="passo" id="passo-5A">
+            <img src="Imagens/Portal.jpg" alt="">
+            <p>Se passam anos e você cresce, criando uma casa e aprendendo os perigos da floresta. Muitos anos se
+                passam, e de repente você é puxado por um portal...
+                Você é Alan Parrish...</p>
+        </div>
+        <div class="passo" id="passo-5B">
+            <img src="Imagens/Suicidio.jpg" alt="">
+            <p>Você procura um pico alto e ao chegar ao topo, se joga dele... esperando que tudo isso é um sonho... mas
+                não é.</p>
+        </div>
+        <div class="passo" id="passo-4C">
+            <p>Se passa 4 horas e você está quase chegando. Precisa beber água de algumas poças do chão. Não há comida,
+                você está fraco</p>
+            <button class="btn-proximo" data-proximo="5D">Você chega até o abismo</button>
+        </div>
+        <div class="passo" id="passo-5D">
+            <img src="Imagens/escuridão.gif" alt="">
+            <p>Chegando até o fim, você se depara com um limbo vazio, com nada além de escuridão</p>
+            <button class="btn-proximo" data-proximo="6D">Tentar olhar mais</button>
+        </div>
+        <div class="passo" id="passo-6D">
+            <img src="Imagens/escuridão.gif" alt="">
+            <p>Ao tentar olhar mais, você cai no abismo. Quando cai, você espera morrer, porém fica caindo e caindo sem
+                um fim aparente. Você não sente nada, nem fome, nem sede, absolutamente nada. Você perde a noção de
+                tempo. Você não envelhece e não morre.
+                Está condenado a ficar caindo... para sempre.</p>
+        </div>
+        <div class="passo" id="passo-3B">
+            <img src="Imagens/Areia movediça.jpg" alt="">
+            <p>Você acaba em areia movediça e morre sufocado e sozinho 💀</p>
+        </div>
+        <div class="passo" id="passo-2B">
+            <img src="Imagens/gorila.jpg" alt="">
+            <p>Um gorila vem até você.</p>
+            <button class="btn-proximo" data-proximo="3C">Se fingir de morto</button>
+            <button class="btn-proximo" data-proximo="4E">Fugir o mais rápido que puder</button>
+        </div>
+        <div class="passo" id="passo-3C">
+            <img src="Imagens/Gorila banana.jpg" alt="">
+            <p>O gorila fica abismado com tanta burrice e decide ir embora comer bananas.</p>
+            <button class="btn-proximo" data-proximo="3A">Fora da floresta</button>
+        </div>
+        <div class="passo" id="passo-4E">
+            <img src="Imagens/Gorila morreu.png" alt="">
+            <p>Você corre por algum tempo com o gorila atrás de você. Quando ele está prestes a te alcançar, ele tem um ataque cardiáco e morre.</p>
+            <button class="btn-proximo" data-proximo="5C">Andar para fora da floresta</button>
+        </div>
+        <div class="passo" id="passo-5C">
+            <img src="Imagens/forest.jpg" alt="">
+            <p>Andando e desviando dos perigos na floresta, você acaba saindo dela eventualmente</p>
+            <button class="btn-proximo" data-proximo="3A">Fora da floresta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
